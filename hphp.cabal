@@ -1,0 +1,17 @@
+name:                hphp
+version:             0.1.0.0
+synopsis:            PHP with lexical scoping in Haskell
+description:         A proof-of-concept PHP parser and evaluator with lexical scope (no more global or using!)
+homepage:            https://github.com/joelteon/hphp
+license:             MIT
+license-file:        LICENSE
+author:              Joel Taylor
+maintainer:          me@joelt.io
+category:            Language
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  -- exposed-modules:
+  -- other-modules:
+  build-depends:       base ==4.6.*
